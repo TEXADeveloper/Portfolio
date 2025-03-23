@@ -242,6 +242,7 @@ export default async function GameDetail({ params }: { params: { slug: string } 
                   <Card key={slug} className="bg-zinc-900/80 border-green-500/20 overflow-hidden hover:border-green-500/50 transition group">
                     <Link href={`/games/${slug}`} passHref>
                       <div className="relative h-40 overflow-hidden">
+                        {/* Unique key error here */}
                         <Image
                           src={`${thisGame.picture}?height=160&width=320`}
                           alt={thisGame.title}
