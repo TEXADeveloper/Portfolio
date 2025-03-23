@@ -40,12 +40,61 @@
             "page": "https://texadev.itch.io/milkshake",
             "repo": "https://gitlab.com/dum-company/milkshake-ggj-2024"
         },
-        "picture": "/placeholder.svg?height=400&width=600",
+        "picture": "/placeholder.svg",
         "screenshots": [
-            "/placeholder1.svg?height=400&width=600",
-            "/placeholder2.svg?height=400&width=600",
-            "/placeholder3.svg?height=400&width=600",
-            "/placeholder4.svg?height=400&width=600"
+            "/placeholder1.svg",
+            "/placeholder2.svg",
+            "/placeholder3.svg",
+            "/placeholder4.svg"
+        ]
+    },
+    "milkshake2": {
+        "title": "Milkshake2",
+        "genere": "Party, Multiplayer",
+        "date": "January 2024",
+        "time": "48 hours",
+        "type": "Personal Project",
+        "role": "GamePlay and UI Programmer",
+        "tagline": "The cows gallop freely in a frenetic battle for FAME and GLORY",
+        "details": "This game was created during a 48-hour game jam challenge where participants had to create a game from scratch based on a theme.",
+        "cardDescription":  [
+            "Use an INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
+            "Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard."
+        ],
+        "gameDescription":  [
+            "Use an INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
+            "Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.",
+            "Milkshake is a fast-paced multiplayer shooter where you play as cows armed with ridiculous weapons. The game combines chaotic gameplay with humor and over-the-top action. Players compete to gain followers by performing spectacular kills and stunts, all while avoiding being sent to the slaughterhouse themselves."
+        ],
+        "team": [
+            "Inti Fernández",
+            "Designer Name",
+            "Artist Name",
+            "Juan pedro"
+        ],
+        "technologies": [
+            "Unity",
+            "C#",
+            "Photon Networking",
+            "FMOD"
+        ],
+        "features": [
+            "Frantic multiplayer battles with up to 8 players",
+            "Over 20 ridiculous weapons and power-ups",
+            "5 unique battle arenas",
+            "Social media-inspired follower system",
+            "Customizable cow characters"
+        ],
+        "links": {
+            "page": "https://texadev.itch.io/milkshake",
+            "repo": "https://gitlab.com/dum-company/milkshake-ggj-2024"
+        },
+        "picture": "/placeholder.svg",
+        "screenshots": [
+            "/placeholder1.svg",
+            "/placeholder2.svg",
+            "/placeholder3.svg",
+            "/placeholder4.svg"
         ]
     }
 }

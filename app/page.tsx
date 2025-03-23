@@ -259,12 +259,12 @@ export default function Portfolio() {
                 <Button className="bg-green-500 hover:bg-green-200 text-black px-0 py-0">
                   <a href="#games"
                     className="px-4 py-2 w-full sm:w-auto">
-                    View My Work
+                    See My Work
                   </a>
                 </Button>
                 <Button
                   variant="ghost"
-                  className="px-0 py-0 border border-green-500 text-green-500 hover:bg-green-500 hover:text-black w-full sm:w-auto"
+                  className="px-0 py-0 border border-green-500 text-green-500 hover:bg-green-600 hover:text-black w-full sm:w-auto"
                 >
                   <a href="#contact"
                     className="px-4 py-2 w-full sm:w-auto">
@@ -332,7 +332,7 @@ export default function Portfolio() {
                     <Badge variant="outline" className="text-xs sm:text-sm">
                       {game.type}
                     </Badge>
-                    <Button variant="ghost" size="sm" className="text-green-400 hover:text-primary-foreground">
+                    <Button variant="ghost" size="sm" className="text-green-500 hover:text-primary-foreground">
                       <a href={game.links.page} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                         <ExternalLink className="w-4 h-4 mr-2" /> Play
                       </a>
@@ -437,19 +437,19 @@ export default function Portfolio() {
                 <div className="flex items-center gap-3">
                   <a href="mailto:intifernandez2004@gmail.com" className="flex gap-3 items-center">
                     <Mail className="text-green-500 w-5 h-5 flex-shrink-0" />
-                    <span className="text-white/80 text-sm sm:text-base break-all">contact@intifernandez.com</span>
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
-                  <a href={social.github} target="_blank" className="flex gap-3 items-center">
-                    <Github className="text-green-500 w-5 h-5 flex-shrink-0" />
-                    <span className="text-white/80 text-sm sm:text-base break-all">github.com/texadeveloper</span>
+                    <span className="text-white/80 text-sm sm:text-base pt-0.5 break-all"><span className="text-green-500"><b>Mail:</b></span> intifernandez2004@gmail.com</span>
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <a href={social.linkedin} target="_blank" className="flex gap-3 items-center">
                     <Linkedin className="text-green-500 w-5 h-5 flex-shrink-0" />
-                    <span className="text-white/80 text-sm sm:text-base break-all">linkedin.com/in/intifernandez</span>
+                    <span className="text-white/80 text-sm sm:text-base pt-0.5 break-all"><span className="text-green-500"><b>LinkedIn:</b></span> Inti Ferández Paz</span>
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <a href={social.github} target="_blank" className="flex gap-3 items-center">
+                    <Github className="text-green-500 w-5 h-5 flex-shrink-0" />
+                    <span className="text-white/80 text-sm sm:text-base pt-0.5 break-all"><span className="text-green-500"><b>GitHub:</b></span> TEXADeveloper</span>
                   </a>
                 </div>
               </div>
@@ -499,7 +499,7 @@ export default function Portfolio() {
                     className="w-full bg-black/50 border border-green-500/30 rounded p-2 text-white focus:border-green-500 focus:outline-none text-sm sm:text-base"
                   ></textarea>
                 </div>
-                <Button className="w-full bg-green-500 hover:bg-green-600 text-black">Send Message</Button>
+                <Button className="w-full bg-green-500 hover:bg-green-200 text-black">Send Message</Button>
               </form>
             </div>
           </div>

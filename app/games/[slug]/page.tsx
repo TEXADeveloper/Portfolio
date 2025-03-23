@@ -174,7 +174,7 @@ export default async function GameDetail({ params }: { params: { slug: string } 
                         <CardContent className="p-0">
                           <div className="relative aspect-video">
                             <Image
-                              src={screenshot || "/placeholder.svg"}
+                              src={`${screenshot || "/placeholder.svg"}?height=400&width=600`}
                               alt={`${gameData.title} screenshot ${index + 1}`}
                               fill
                               className="object-cover"
@@ -227,97 +227,54 @@ export default async function GameDetail({ params }: { params: { slug: string } 
       </section>
 
       {/* Related Games */}
+      {games && Object.keys(games).length > 1 ? (
       <section className="py-12 sm:py-16 bg-black/50">
         <div className="container mx-auto px-4">
           <h2 className="text-xl sm:text-2xl font-semibold mb-6 text-green-500">More Games</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-            {/* Related Game 1 */}
-            <Card className="bg-zinc-900/80 border-green-500/20 overflow-hidden hover:border-green-500/50 transition group">
-              <div className="relative h-40 overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=160&width=320"
-                  alt="Pyramid of Babel Game"
-                  width={320}
-                  height={160}
-                  className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-green-500 font-medium mb-1">Pyramid Of Babel</h3>
-                <p className="text-white/70 text-sm line-clamp-2 mb-3">
-                  Explore the depths of the crypt from the Pyramid of Babel
-                </p>
-                <div className="flex justify-between items-center">
-                  <Badge variant="outline" className="text-xs">
-                    WinterJam 2022
-                  </Badge>
-                  <Button variant="ghost" size="sm" className="text-green-400 h-8 px-2">
-                    <ExternalLink className="w-3 h-3 mr-1" />
-                    <span className="text-xs">View</span>
-                  </Button>
-                </div>
-              </div>
-            </Card>
-
-            {/* Related Game 2 */}
-            <Card className="bg-zinc-900/80 border-green-500/20 overflow-hidden hover:border-green-500/50 transition group">
-              <div className="relative h-40 overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=160&width=320"
-                  alt="Another Game"
-                  width={320}
-                  height={160}
-                  className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-green-500 font-medium mb-1">To The Roots</h3>
-                <p className="text-white/70 text-sm line-clamp-2 mb-3">
-                  A puzzle adventure about reconnecting with nature
-                </p>
-                <div className="flex justify-between items-center">
-                  <Badge variant="outline" className="text-xs">
-                    SummerJam 2023
-                  </Badge>
-                  <Button variant="ghost" size="sm" className="text-green-400 h-8 px-2">
-                    <ExternalLink className="w-3 h-3 mr-1" />
-                    <span className="text-xs">View</span>
-                  </Button>
-                </div>
-              </div>
-            </Card>
-
-            {/* Related Game 3 */}
-            <Card className="bg-zinc-900/80 border-green-500/20 overflow-hidden hover:border-green-500/50 transition group">
-              <div className="relative h-40 overflow-hidden">
-                <Image
-                  src="/placeholder.svg?height=160&width=320"
-                  alt="Third Game"
-                  width={320}
-                  height={160}
-                  className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-green-500 font-medium mb-1">Pixel Panic</h3>
-                <p className="text-white/70 text-sm line-clamp-2 mb-3">
-                  A retro-inspired platformer with time manipulation mechanics
-                </p>
-                <div className="flex justify-between items-center">
-                  <Badge variant="outline" className="text-xs">
-                    RetroJam 2023
-                  </Badge>
-                  <Button variant="ghost" size="sm" className="text-green-400 h-8 px-2">
-                    <ExternalLink className="w-3 h-3 mr-1" />
-                    <span className="text-xs">View</span>
-                  </Button>
-                </div>
-              </div>
-            </Card>
+            {/* Related Game Card */}
+              {Object.entries(games)
+                .filter(([slug, thisGame]) => thisGame !== gameData)
+                .sort(() => Math.random() - 0.5)
+                .slice(0, 3)
+                .map(([slug, thisGame]) => (
+                  <Card key={slug} className="bg-zinc-900/80 border-green-500/20 overflow-hidden hover:border-green-500/50 transition group">
+                    <Link href={`/games/${slug}`} passHref>
+                      <div className="relative h-40 overflow-hidden">
+                        <Image
+                          src={`${thisGame.picture}?height=160&width=320`}
+                          alt={thisGame.title}
+                          width={320}
+                          height={160}
+                          className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+                        />
+                      </div>
+                    </Link>
+                    <div className="p-4">
+                      <Link href={`/games/${slug}`} passHref>
+                        <h3 className="text-green-500 font-medium mb-1">{thisGame.title}</h3>
+                        <p className="text-white/70 text-sm line-clamp-2 mb-3">
+                          {thisGame.tagline}
+                        </p>
+                      </Link>
+                      <div className="flex justify-between items-center">
+                        <Badge variant="outline" className="text-xs">
+                          {thisGame.type}
+                        </Badge>
+                        <Button asChild variant="ghost" size="sm" className="h-8 px-0 text-green-500 hover:text-primary-foreground">
+                          <a href={thisGame.links.page} target="_blank" rel="noopener noreferrer" className="flex h-8 px-2 gap-0 items-center">
+                            <ExternalLink className="w-4 h-4 mr-2" /> Play
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
+                  </Card>
+                ))}
           </div>
         </div>
       </section>
+      ) : null }
 
       {/* Footer */}
       <footer className="py-6 sm:py-8 border-t border-green-500/20"> </footer>
