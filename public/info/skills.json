@@ -1,0 +1,26 @@
+{
+    "Game Development": [
+        "Unity",
+        "Unreal Engine",
+        "Godot",
+        "GameMechanics"
+    ],
+    "Programming": [
+        "C#",
+        "C++",
+        "JavaScript",
+        "Python"
+    ],
+    "Tools": [
+        "Git",
+        "Visual Studio",
+        "Jira",
+        "Perforce"
+    ],
+    "Soft Skills": [
+        "Problem Solving",
+        "Team Collaboration",
+        "Communication",
+        "Time Management"
+    ]
+}

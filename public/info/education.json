@@ -1,0 +1,18 @@
+{
+    "udelar": {
+        "title": "Engineering",
+        "institute": "Facultad de Ingeniería",
+        "description":  "sdf y <b>asd</b>",
+        "date": "2022 - 2027",
+        "url": "https://www.youtube.com/",
+        "picture": "placeholder1.svg"
+    },
+    "its": {
+        "title": "The cows gallop freely in a frenetic battle for FAME and GLORY",
+        "institute": "Milkshake",
+        "description":  "",
+        "date": "2024",
+        "url": "https://www.google.com/",
+        "picture": "/placeholder1.svg"
+    }
+}
