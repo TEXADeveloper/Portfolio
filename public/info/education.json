@@ -3,16 +3,32 @@
         "title": "Engineering",
         "institute": "Facultad de Ingeniería",
         "description":  "sdf y <b>asd</b>",
-        "date": "2022 - 2027",
-        "url": "https://www.youtube.com/",
-        "picture": "placeholder1.svg"
+        "date": "2022 - In Progress",
+        "url": "https://www.fing.edu.uy/es/carrera/grado/ingenier%C3%ADa-en-computaci%C3%B3n",
+        "picture": "/education/fing.png"
+    },
+    "esi": {
+        "title": "IT Bachelor - Videogames",
+        "institute": "ESI School",
+        "description":  "dfgdsfgdfsgs",
+        "date": "2021",
+        "url": "https://www.utu.edu.uy/",
+        "picture": "/education/esi.png"
     },
     "its": {
-        "title": "The cows gallop freely in a frenetic battle for FAME and GLORY",
+        "title": "IT Bachelor",
         "institute": "Milkshake",
-        "description":  "",
-        "date": "2024",
-        "url": "https://www.google.com/",
-        "picture": "/placeholder1.svg"
+        "description":  "dfsgsdfgsdfgsfdg",
+        "date": "2019-2020",
+        "url": "https://planeamientoeducativo.utu.edu.uy/sites/cursos.utu.edu.uy/oferta-educativa/2005/2004/TICUR/049/EMT%20Informatica%20reformulacion.htm",
+        "picture": "/education/its.png"
+    },
+    "iudei": {
+        "title": "Cambridge B2 Certificate",
+        "institute": "IUDEI Institute",
+        "description":  "dfgdsfgsdgfdsfg",
+        "date": "2013-2021",
+        "url": "https://www.cambridgeenglish.org/exams-and-tests/first/",
+        "picture": "/education/iudei.png"
     }
 }

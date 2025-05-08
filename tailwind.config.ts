@@ -1,4 +1,5 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config = {
   darkMode: ["class"],
@@ -75,8 +76,19 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-} satisfies Config
+  plugins: [
+    require("tailwindcss-animate"),
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        ".image-pixelated": {
+          imageRendering: "pixelated",
+        },
+        ".image-crisp": {
+          imageRendering: "crisp-edges",
+        },
+      });
+    }),
+  ],
+} satisfies Config;
 
-export default config
-
+export default config;

@@ -1,100 +1,206 @@
 {
-    "b": {
+    "milkshake": {
         "title": "Milkshake",
         "genere": "Party, Multiplayer",
         "date": "January 2024",
         "time": "48 hours",
-        "type": "Personal Project",
+        "type": "Jam Game",
         "role": "GamePlay and UI Programmer",
         "tagline": "The cows gallop freely in a frenetic battle for FAME and GLORY",
-        "details": "This game was created during a 48-hour game jam challenge where participants had to create a game from scratch based on a theme.",
         "cardDescription":  [
-            "Use an INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
-            "Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard."
+            "The cows gallop freely in a frenetic battle for <btext-green-500>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals.",
+            "One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
+            "This game was created as an entry for the <b>Global Game Jam 2024</b>."
         ],
         "gameDescription":  [
-            "Use an INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
-            "Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.",
-            "Milkshake is a fast-paced multiplayer shooter where you play as cows armed with ridiculous weapons. The game combines chaotic gameplay with humor and over-the-top action. Players compete to gain followers by performing spectacular kills and stunts, all while avoiding being sent to the slaughterhouse themselves."
+            "Year 2017. The cows gallop freely in a frenetic battle for <b>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>.",
+            "This is a local multiplayer game for <b>Up to 4 players</b>.",
+            "Fight your friends with <b>strange weapons fow a cow</b>. Use your <b>udders to shoot milk</b> over your enemies, or get a <b>chicken</b> and <b>make them explode</b>, but be careful <b>your mom's chancla</b> is arround and it always hits. Don't make your friend too angry or <b>he will charge against you</b>.",
+            "Be aware, sometimes there is a strange <b>rain of butcher knives and tractors</b>. And remember to <b>be in the highground</b> when the <b>fleas</b> arrive."
         ],
         "team": [
+            "Bruna Sosa",
+            "Claudio Vignone",
+            "Gonzalo Martínez",
             "Inti Fernández",
-            "Designer Name",
-            "Artist Name",
-            "Juan pedro"
+            "Matias Faviere",
+            "Rodney García"
         ],
         "technologies": [
             "Unity",
             "C#",
-            "Photon Networking",
-            "FMOD"
+            "Blender",
+            "Maya",
+            "Cubase",
+            "Kontakt",
+            "Vst"
         ],
         "features": [
-            "Frantic multiplayer battles with up to 8 players",
-            "Over 20 ridiculous weapons and power-ups",
-            "5 unique battle arenas",
-            "Social media-inspired follower system",
-            "Customizable cow characters"
+            "Frantic multiplayer battles with up to 4 players",
+            "4 ridiculous weapons and power-ups",
+            "Upcoming battle arenas",
+            "4 different cow skins",
+            "World events"
         ],
         "links": {
             "page": "https://texadev.itch.io/milkshake",
             "repo": "https://gitlab.com/dum-company/milkshake-ggj-2024"
         },
-        "picture": "/placeholder.svg",
+        "icon": "/games/milkshake/icon.png",
+        "picture": "/games/milkshake/picture.png",
         "screenshots": [
-            "/placeholder1.svg",
-            "/placeholder2.svg",
-            "/placeholder3.svg",
-            "/placeholder4.svg"
+            "/games/milkshake/1.png",
+            "/games/milkshake/2.png",
+            "/games/milkshake/3.png",
+            "/games/milkshake/4.png",
+            "/games/milkshake/5.png"
         ]
     },
-    "a": {
-        "title": "Milkshake2",
-        "genere": "Party, Multiplayer",
-        "date": "January 2024",
+    "pyramid-of-babel": {
+        "title": "Pyramid Of Babel",
+        "genere": "Shooter, Puzzle",
+        "date": "August 2022",
         "time": "48 hours",
-        "type": "Personal Project",
-        "role": "GamePlay and UI Programmer",
-        "tagline": "The cows gallop freely in a frenetic battle for FAME and GLORY",
-        "details": "This game was created during a 48-hour game jam challenge where participants had to create a game from scratch based on a theme.",
+        "type": "Jam Game",
+        "role": "Mechanics and UI Programmer",
+        "tagline": "Explore the deeps of the crypt of the Pyramid of Babel.",
         "cardDescription":  [
-            "Use an INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
-            "Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard."
+            "Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.",
+            "This game was created as an entry for Jam2Jam's <b>Winter Jam 2022</b>."
         ],
         "gameDescription":  [
-            "Use an INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>",
-            "Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.",
-            "Milkshake is a fast-paced multiplayer shooter where you play as cows armed with ridiculous weapons. The game combines chaotic gameplay with humor and over-the-top action. Players compete to gain followers by performing spectacular kills and stunts, all while avoiding being sent to the slaughterhouse themselves."
+            "Explore the deeps of the crypt of the <b>Pyramid of Babel</b>. Solve ancient puzzles and challenge the assassins of <b>The Order of Silence</b> to claim the knowledge these tombs guard.",
+            "In this game you're inside a maze, the walls contain letters, you have to survive the enemies while you solve the word search game in which you're trapped to unlock de door."
         ],
         "team": [
+            "Bruna Sosa",
+            "Claudio Vignone",
+            "Danilo De Los Reyes",
+            "Gonzalo Martínez",
             "Inti Fernández",
-            "Designer Name",
-            "Artist Name",
-            "Juan pedro"
+            "Matias Faviere"
         ],
         "technologies": [
             "Unity",
             "C#",
-            "Photon Networking",
-            "FMOD"
+            "Blender",
+            "Maya",
+            "Cubase",
+            "Kontakt",
+            "Vst"
         ],
         "features": [
-            "Frantic multiplayer battles with up to 8 players",
-            "Over 20 ridiculous weapons and power-ups",
-            "5 unique battle arenas",
-            "Social media-inspired follower system",
-            "Customizable cow characters"
+            "Three different levels!!",
+            "Working minimap.",
+            "Realtime word display.",
+            "An enemy that follows you EVERYWHERE!!",
+            "NOT enough time."
         ],
         "links": {
-            "page": "https://texadev.itch.io/milkshake",
-            "repo": "https://gitlab.com/dum-company/milkshake-ggj-2024"
+            "page": "https://texadev.itch.io/pyramid-of-babel",
+            "repo": "https://gitlab.com/dum-company/winterjam2022"
         },
-        "picture": "/placeholder.svg",
+        "icon": "/games/pyramid-of-babel/icon.png",
+        "picture": "/games/pyramid-of-babel/picture.png",
         "screenshots": [
-            "/placeholder1.svg",
-            "/placeholder2.svg",
-            "/placeholder3.svg",
-            "/placeholder4.svg"
+            "/games/pyramid-of-babel/1.png",
+            "/games/pyramid-of-babel/2.png",
+            "/games/pyramid-of-babel/3.png",
+            "/games/pyramid-of-babel/4.png",
+            "/games/pyramid-of-babel/5.png"
+        ]
+    },
+    "chat-em-up": {
+        "title": "Chat 'Em Up",
+        "genere": "Beat 'em up, Twitch interactive",
+        "date": "February 2023",
+        "time": "1 Month",
+        "type": "Personal project",
+        "role": "Indie Dev",
+        "tagline": "Survive as long as you can. DON'T let your CHAT win.",
+        "cardDescription":  [
+            "Twitch interactive game for streamers, foster chat interaction and have fun at the same time with Chat Em Up.",
+            "Game made with learning purposes."
+        ],
+        "gameDescription":  [
+            "Invite your viewers to challenge you by spawning enemies and bosses with chat commands and channel point rewards.",
+            "Survive as long as you can and beat your record or let your chat defeat you.",
+            "Twitch interactive game for streamers, foster chat interaction and have fun at the same time with <b>Chat Em Up</b>."
+        ],
+        "team": [
+            "Inti Fernández"
+        ],
+        "technologies": [
+            "Unity",
+            "C#",
+            "Piskel",
+            "Linux Multimedia Studio"
+        ],
+        "features": [
+            "Realtime twitch chat interaction!!",
+            "Configurable game!!",
+            "Channel ponints support!!",
+            "Reactive Music!!",
+            "Working bosses.",
+            "2 Enemies skins.",
+            "4 different attacks."
+        ],
+        "links": {
+            "page": "https://texadev.itch.io/chat-em-up",
+            "repo": "https://github.com/TEXADeveloper/ChatBeatEmUp"
+        },
+        "icon": "/games/chat-em-up/icon.png",
+        "picture": "/games/chat-em-up/picture.png",
+        "screenshots": [
+            "/games/chat-em-up/1.png",
+            "/games/chat-em-up/2.png",
+            "/games/chat-em-up/3.png",
+            "/games/chat-em-up/4.png",
+            "/games/chat-em-up/5.png"
+        ]
+    },
+    "ping-online": {
+        "title": "Ping Online",
+        "genere": "Classic, Multiplayer, Online",
+        "date": "January 2023",
+        "time": "2 Months",
+        "type": "Personal project",
+        "role": "Indie Dev",
+        "tagline": "A classic game recreated. With online mode!!",
+        "cardDescription":  [
+            "An <b>ONLINE MULTIPLAYER</b> version of the <b>CLASSIC</b> game <b>PONG</b>. Have fun with your friends everywhere.",
+            "Join a grup of up to 4 players to play this game once again whith this new version of the game created in 1972."
+        ],
+        "gameDescription":  [
+            "An <b>ONLINE MULTIPLAYER</b> version of the <b>CLASSIC</b> game <b>PONG</b>. Have fun with your friends everywhere.",
+            "This game was created using <b>MIRROR</b> libary for unity to create the multiplayer system.",
+            "After finishing the classic version of the game, I decided to go for more, so I added a <b>4 PLAYERS GAMEMODE</b>",
+            "Game made with learning purposes. Not fully tested."
+        ],
+        "team": [
+            "Inti Fernández"
+        ],
+        "technologies": [
+            "Unity",
+            "C#",
+            "Mirror"
+        ],
+        "features": [
+            "Realtime online multiplayer!",
+            "2 Gamemodes!",
+            "Up to 4 players"
+        ],
+        "links": {
+            "page": "https://texadev.itch.io/ping-online",
+            "repo": "https://github.com/TEXADeveloper/Ping-Online"
+        },
+        "icon": "/games/ping-online/icon.png",
+        "picture": "/games/ping-online/picture.png",
+        "screenshots": [
+            "/games/ping-online/1.png",
+            "/games/ping-online/2.png",
+            "/games/ping-online/3.png",
+            "/games/ping-online/4.png"
         ]
     }
 }

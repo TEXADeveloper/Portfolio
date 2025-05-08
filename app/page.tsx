@@ -306,11 +306,11 @@ export default function Portfolio() {
                   <Link href={`/games/${slug}`} passHref>
                     <div className="relative h-48 sm:h-60 overflow-hidden">
                       <Image
-                        src={`${game.picture}?height=240&width=600`}
+                        src={`${game.icon}?height=240&width=600`}
                         alt={game.title}
                         width={600}
                         height={240}
-                        className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+                        className="object-contain image-pixelated w-full h-full group-hover:scale-105 transition duration-500"
                       />
                     </div>
                     <CardHeader className="p-4 sm:p-6">
@@ -386,10 +386,10 @@ export default function Portfolio() {
                 >
                   <div className="flex flex-col md:flex-row gap-4 md:items-center">
                     <div className="md:w-1/5 flex justify-center">
-                      <div className="relative w-24 h-24 rounded-lg overflow-hidden border border-green-500/30">
+                      <div className="relative w-24 h-24 rounded-lg overflow-hidden border border-transparent">
                         <Image
                           src={`${edu.picture}?height=96&width=96`}
-                          alt="University Logo"
+                          alt={`${edu.institute} Logo`}
                           width={96}
                           height={96}
                           className="object-cover"
@@ -397,7 +397,7 @@ export default function Portfolio() {
                       </div>
                     </div>
                     <div className="md:w-1/5">
-                      <div className="bg-black/30 p-3 rounded-md inline-block">
+                      <div className="p-3 rounded-md inline-block">
                         <span className="text-green-500 font-bold text-lg sm:text-xl">{edu.date}</span>
                       </div>
                     </div>

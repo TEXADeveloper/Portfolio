@@ -9,6 +9,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
+import React from "react"
 
 function getGames() {
   const filePath = path.join(process.cwd(), "public/info/games.json");
@@ -86,12 +87,12 @@ export default async function GameDetail({ params }: { params: { slug: string } 
                       <h2 className="text-xl sm:text-2xl font-semibold mb-3 text-green-500">About the Game</h2>
                       {Array.isArray(gameData.gameDescription) ? (
                         gameData.gameDescription.map((desc, index) => (
-                          <>
+                          <React.Fragment key={index}>
                             <p className="text-white/80 text-sm sm:text-base leading-relaxed" key={index}>
                               <span dangerouslySetInnerHTML={{ __html: desc }} />
                             </p>
                             {index !== gameData.gameDescription.length - 1 && <br />}
-                          </>
+                          </React.Fragment>
                         ))
                       ) : (
                         <p className="text-white/80 text-sm sm:text-base leading-relaxed">
@@ -242,13 +243,12 @@ export default async function GameDetail({ params }: { params: { slug: string } 
                   <Card key={slug} className="bg-zinc-900/80 border-green-500/20 overflow-hidden hover:border-green-500/50 transition group">
                     <Link href={`/games/${slug}`} passHref>
                       <div className="relative h-40 overflow-hidden">
-                        {/* Unique key error here */}
                         <Image
-                          src={`${thisGame.picture}?height=160&width=320`}
+                          src={`${thisGame.icon}?height=160&width=320`}
                           alt={thisGame.title}
                           width={320}
                           height={160}
-                          className="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+                          className="object-contain w-full h-full group-hover:scale-105 transition duration-500"
                         />
                       </div>
                     </Link>
