@@ -110,61 +110,6 @@
             "/games/pyramid-of-babel/5.png"
         ]
     },
-    "mark-invader": {
-        "title": "Mark Invader",
-        "genere": "Twin stick shooter, Survival",
-        "date": "July 2025",
-        "time": "48 hours",
-        "type": "Jam Game",
-        "role": "Mechanics and UI Programmer, Game Designer",
-        "tagline": "Mark Zuckerberg must evade the US government, which is trying to deport him to his home planet.",
-        "cardDescription":  [
-            "Mark Invader is a survival game with an isometric view and retro-futuristic sci-fi aesthetics.",
-            "In this comical parody, an alien version of Mark Zuckerberg must evade the US government, which is trying to deport him to his home planet."
-        ],
-        "gameDescription":  [
-            "Mark Invader is a survival game with an isometric view and retro-futuristic sci-fi aesthetics.",
-            "In this comical parody, an alien version of Mark Zuckerberg must evade the US government, which is trying to deport him to his home planet.",
-            "Use alien technology, activate portals, collect interdimensional energy, and face off against government agents, all in a colorful universe full of digital satire."
-        ],
-        "team": [
-            "Claudio Vignone",
-            "Gonzalo Martínez",
-            "Inti Fernández",
-            "Juan Martin Muzio",
-            "Matías Faviere",
-            "Rodney García"
-        ],
-        "technologies": [
-            "Unity",
-            "C#",
-            "Blender",
-            "Maya",
-            "Cubase",
-            "Kontakt",
-            "Vst"
-        ],
-        "features": [
-            "Isometric sci-fi cartoon visual style.",
-            "Alien interface with bright, customizable HUD.",
-            "Retro-futuristic weapon selector.",
-            "Dynamic timer that intensifies tension.",
-            "Parodic characters and absurd enemies."
-        ],
-        "links": {
-            "page": "https://texadev.itch.io/mark-invader",
-            "repo": "https://gitlab.com/dum-company/winter-jam-2025"
-        },
-        "icon": "/games/mark-invader/icon.png",
-        "picture": "/games/mark-invader/picture.png",
-        "screenshots": [
-            "/games/mark-invader/1.png",
-            "/games/mark-invader/2.png",
-            "/games/mark-invader/3.png",
-            "/games/mark-invader/4.png",
-            "/games/mark-invader/5.png"
-        ]
-    },
     "chat-em-up": {
         "title": "Chat 'Em Up",
         "genere": "Beat 'em up, Twitch interactive",
