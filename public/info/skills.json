@@ -1,21 +1,20 @@
 {
     "Game Development": [
         "Unity",
-        "Unreal Engine",
         "Godot",
-        "GameMechanics"
+        "ShaderGraph",
+        "Game Mathematics"
     ],
     "Programming": [
         "C#",
         "C++",
-        "JavaScript",
-        "Python"
+        "Java",
     ],
     "Tools": [
         "Git",
         "Visual Studio",
         "Jira",
-        "Perforce"
+        "GitHub/GitLab"
     ],
     "Soft Skills": [
         "Problem Solving",
